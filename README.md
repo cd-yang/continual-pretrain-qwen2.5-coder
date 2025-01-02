@@ -1,1 +1,47 @@
-This repository is empty. Any task executed on it should be considered a new capability and needs to be created.
+# Qwen2.5-Coder Continual Pre-Training
+
+This repository provides a framework for the continual pre-training of the Qwen2.5-Coder model. The goal is to enhance the model's performance by continually training it on new data.
+
+## Setup
+
+### Environment Setup
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/githubnext/workspace-blank.git
+    cd workspace-blank
+    ```
+
+2. Create a virtual environment and activate it:
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
+
+3. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Data Preprocessing
+
+1. Place your raw data in the `data` directory.
+
+2. Run the data preprocessing script:
+    ```bash
+    python scripts/preprocess_data.py
+    ```
+
+## Model Training
+
+1. Run the model training script:
+    ```bash
+    python scripts/train_model.py
+    ```
+
+## Model Evaluation
+
+1. Run the model evaluation script:
+    ```bash
+    python scripts/evaluate_model.py
+    ```
