@@ -1,2 +1,1 @@
-# continual-pretrain-qwen2.5-coder
-A repository for continual pre-training of a qwen2.5-coder model
+This repository is empty. Any task executed on it should be considered a new capability and needs to be created.
