@@ -7,16 +7,8 @@ This repository provides a framework for the continual pre-training of the Qwen2
 ### Environment Setup
 
 1. Clone the repository:
-    ```bash
-    git clone https://github.com/githubnext/workspace-blank.git
-    cd workspace-blank
-    ```
 
 2. Create a virtual environment and activate it:
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate
-    ```
 
 3. Install the required dependencies:
     ```bash
